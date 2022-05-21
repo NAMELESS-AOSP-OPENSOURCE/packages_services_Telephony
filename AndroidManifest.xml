@@ -248,6 +248,8 @@
     <!-- Needed to listen to changes in projection state. -->
     <uses-permission android:name="android.permission.READ_PROJECTION_STATE"/>
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
     <application android:name="PhoneApp"
             android:persistent="true"
             android:label="@string/phoneAppLabel"
